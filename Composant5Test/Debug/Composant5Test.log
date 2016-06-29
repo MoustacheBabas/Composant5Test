@@ -1,0 +1,26 @@
+﻿La génération a démarré 29/06/2016 21:08:41.
+     1>Projet "c:\Users\Bastien\documents\visual studio 2010\Projects\Composant5Test\Composant5Test\Composant5Test.vcxproj" sur le nœud 2 (rebuild cible(s)).
+     1>PrepareForBuild:
+         Création du répertoire "c:\users\bastien\documents\visual studio 2010\Projects\Composant5Test\Debug\".
+       InitializeBuildStatus:
+         Création de "Debug\Composant5Test.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Composant5Test.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Composant5Test.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Composant5Test.cpp
+         Composant5Test.cpp
+     1>c:\users\bastien\documents\visual studio 2010\projects\composant5test\composant5test\composant5test.cpp(37): warning C4700: variable locale 'b' non initialisée utilisée
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Composant5Test.exe.embed.manifest.res" Debug\Composant5Test_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\bastien\documents\visual studio 2010\Projects\Composant5Test\Debug\Composant5Test.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Composant5Test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\bastien\documents\visual studio 2010\Projects\Composant5Test\Debug\Composant5Test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\bastien\documents\visual studio 2010\Projects\Composant5Test\Debug\Composant5Test.lib" /MACHINE:X86 Debug\Composant5Test.exe.embed.manifest.res
+         Debug\Composant5Test.obj
+         Debug\stdafx.obj
+     1>Composant5Test.obj : error LNK2019: symbole externe non résolu "bool __cdecl transfertVerify(class TX,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?transfertVerify@@YA_NVTX@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) référencé dans la fonction _wmain
+     1>Composant5Test.obj : error LNK2019: symbole externe non résolu "bool __cdecl blockVerify(class Bloc,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?blockVerify@@YA_NVBloc@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) référencé dans la fonction _wmain
+     1>c:\users\bastien\documents\visual studio 2010\Projects\Composant5Test\Debug\Composant5Test.exe : fatal error LNK1120: 2 externes non résolus
+     1>Génération du projet "c:\Users\Bastien\documents\visual studio 2010\Projects\Composant5Test\Composant5Test\Composant5Test.vcxproj" terminée (rebuild cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:04.89
